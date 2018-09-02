@@ -25,6 +25,8 @@ public class LoginPage extends Base{
 	public static WebElement login_button(WebDriver driver) {
 		//return driver.findElement(By.name(read_OR("login_btn")));
 		return driver.findElement(getlocator("login_btn"));   //  made it more generic
+		
+	 
   
 	}	
 

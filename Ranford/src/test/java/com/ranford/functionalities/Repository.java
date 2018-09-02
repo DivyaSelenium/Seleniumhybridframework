@@ -180,6 +180,12 @@ public class Repository extends Base{
 	}
 
 	
+	public void test()
+	 {
+		 System.out.println("hi");
+	 }
+	
+	
 	public void logout_Application()
 	{
 		AdminPage.branches_button(driver).click();
